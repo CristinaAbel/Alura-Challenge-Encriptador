@@ -45,9 +45,8 @@ encriptador/
 4. Envie para o branch original: `git push origin minha-nova-feature`.
 5. Crie uma solicitação de pull.
 
-## Autor
+## Autora
 [Cristina Abel](https://github.com/CristinaAbel)
 
-## Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+
 

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/Logo.svg" alt="Logo">
+    </header>
+    
+    <h1 class="text">Encriptador de Texto</h1>
+    <main>
+        <section class="section1">
+            <div id="containerCaixaDeTexto">
+                <textarea id="input-text" placeholder="Digite seu texto aqui"></textarea>
+                <div class="alerta">
+                    <img src="./img/alerta.svg" alt="alerta">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div id="buttons">
+                    <button class="btn-criptografar" onclick="criptografar()">Criptografar</button>
+                    <button class="btn-descriptografar" onclick="descriptografar()">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div id="output" class="desenho">
+                <img src="./img/desenho.svg" alt="desenho de um menino com uma lupa olhando um diamante">
+                <p id="output-text"></p>
+            </div>
+            <div class="conteiner-paragrafo">
+                <h3 id="titulo_paragrafo">Nenhuma mensagem foi encontrada</h3>
+                <p  id="sub_titulo_paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button class="btn-copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Alura todos os direitos reservados, 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+        
